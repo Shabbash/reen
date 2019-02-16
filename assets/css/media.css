@@ -1,0 +1,589 @@
+    /* MEDIA QUERY */
+    /*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+    
+    @media(min-width: 320px) and (max-width: 767px) {
+        .container {
+            width: 100%;
+        }
+        /*  Section topHead START */
+        .topHead {
+            height: auto;
+        }
+        .topHead .col-xs-12 {
+            padding: 0;
+        }
+        .topHead ul.info {
+            margin: 0;
+        }
+        .topHead ul.info li {}
+        .topHead ul.social {
+            float: none;
+            padding-left: 22%;
+        }
+        .topHead ul.social li {
+            float: left;
+            padding: 0 4%;
+        }
+        .topHead ul.social li a {
+            color: #506a85;
+        }
+        /*  Section topHead END */
+        /* section myNabar START */
+        .navbar {
+            padding: 5% 2%;
+        }
+        .navbar-toggler {
+            padding: 1% 2%;
+        }
+        .navbar-brand {
+            margin-right: 0;
+        }
+        .btn-outline-success {
+            display: none;
+        }
+        /* section myNabar End */
+        /*  Section mainSlider Start */
+        .mainSlider {
+            display: none;
+        }
+        /*  Section mainSlider END */
+        /*  Section description START */
+        .description {
+            padding: 30px 0;
+            height: auto;
+        }
+        .description h2 {
+            font-size: 26px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .description p {
+            font-size: 15px;
+            font-weight: 600;
+            padding: 1% 4% 1% 4%;
+            text-align: justify;
+        }
+        .description .desc {
+            text-align: center;
+            padding-top: 3%;
+        }
+        .description .desc .col-xs-12 {
+            padding-top: 5%;
+        }
+        .description .desc i {
+            font-size: 52px;
+        }
+        .description .desc h3 {
+            color: #506a85;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .description .desc p {
+            padding: 0;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 1% 5% 1% 5%;
+            text-align: justify;
+        }
+        /*  Section description END */
+        .latestWorks {
+            background-color: #f2f5f7;
+            text-align: center;
+            padding: 20% 0;
+        }
+        .latestWorks h2 {
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .latestWorks p {
+            font-size: 15px;
+            font-weight: 600;
+            padding: 5% 4% 10% 4%;
+            text-align: justify;
+        }
+        .latestWorks .latest {
+            padding-bottom: 3%;
+        }
+        .latestWorks .latest img {}
+        .latestWorks .latest h3 {
+            font-size: 18px;
+            padding: 8% 3% 3% 1%;
+            text-transform: uppercase;
+        }
+        .latestWorks .latest p {
+            text-align: center;
+        }
+        .latestWorks .flexslider {
+            padding-top: 20%;
+        }
+        /*  Section wantwork START */
+        .wantwork {
+            text-align: center;
+            height: 480px;
+            padding: 20% 1%;
+        }
+        .wantwork h2 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        .wantwork p {
+            font-size: 20px;
+            padding: 10% 1%;
+            text-align: justify;
+        }
+        /*  Section wantwork END */
+        /*  Section information START */
+        .information {
+            height: auto;
+            padding: 0 5% 5% 5%;
+            text-align: center;
+        }
+        .information h2 {
+            padding: 25% 2% 10% 2%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .information p {
+            padding: 0 4% 6% 4%;
+            text-align: justify;
+            font-size: 17px;
+        }
+        .information .whoWeAre a {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .information .latestWork .col-xs-6 {
+            width: auto;
+            padding: 0;
+        }
+        .information .latestWork .work {
+            padding: 1%;
+        }
+        .information .touch p {
+            text-align: center;
+        }
+        .information .touch span {
+            text-align: left;
+            padding: 3% 2% 0% 7%;
+            font-size: 15px;
+        }
+        .information .updates input {
+            width: 90%;
+            padding: 4% 5%;
+            margin: 1% 4%;
+        }
+        .information .updates input.submit {
+            width: 90%;
+            padding: 4% 5%;
+            margin: 1% 4%;
+            position: static;
+            height: auto;
+        }
+        /*  Section information END */
+        /*  Section footer START */
+        .footer {
+            font-size: 12px;
+            height: auto;
+            line-height: normal;
+            text-align: center;
+            font-weight: 600;
+        }
+        .footer .large {
+            display: none;
+        }
+        .footer .mobile {
+            display: block;
+        }
+        .footer ul.copyright {
+            margin: 0;
+            padding: 2% 0% 5% 23%;
+            width: 105%;
+        }
+        .footer ul.copyright li {
+            float: initial;
+            padding: 0;
+        }
+        .footer ul.copyright li i {}
+        .footer ul {
+            padding: 5% 2%;
+        }
+        .footer ul.links {
+            float: initial;
+        }
+        .footer ul.links li {
+            padding: 0 3% 0 0;
+        }
+        .footer ul.links li a {}
+        /*  Section footer END */
+    }
+    /* ----------------------------------------------------------------------------------------------*/
+    
+    @media(min-width: 360px) and (max-width: 767px) {
+        .topHead .col-xs-12 {
+            padding: 0 6%;
+        }
+        .navbar {
+            padding: 5% 5%;
+        }
+        .information .touch p {
+            text-align: justify;
+        }
+        .information .latestWork .row {
+            margin-left: 6%;
+        }
+        .footer ul {
+            padding: 5% 7%;
+        }
+        .footer ul.copyright {
+            padding: 2% 0% 5% 28%;
+        }
+    }
+    /* ----------------------------------------------------------------------------------------------*/
+    
+    @media(min-width: 375px) and (max-width: 767px) {
+        .navbar {
+            padding: 5% 5%;
+        }
+        .topHead .col-xs-12 {
+            padding: 0 5%;
+        }
+        .information .latestWork .row {
+            margin-left: 6%;
+        }
+        .information .latestWork .col-xs-6 {
+            padding: 0;
+        }
+        .information .latestWork .work {
+            padding: 3%;
+        }
+    }
+    /* ----------------------------------------------------------------------------------------------*/
+    
+    @media(min-width: 411px) and (max-width: 767px) {
+        .topHead .col-xs-12 {
+            padding: 0 10%;
+        }
+        .information .latestWork .row {
+            margin-left: 9%;
+        }
+        .information .latestWork .work {
+            padding: 4%;
+        }
+        .footer ul.links li {
+            padding: 0 5% 0 0;
+        }
+        .footer ul.copyright li {
+            padding: 0 6%;
+        }
+    }
+    /* ----------------------------------------------------------------------------------------------*/
+    
+    @media(min-width: 414px) and (max-width: 767px) {}
+    /* ----------------------------------------------------------------------------------------------*/
+    
+    @media(min-width: 568px) and (max-width:767px) {
+        .topHead .col-xs-12 {
+            padding: 0px 19%;
+        }
+        .topHead ul.social {
+            padding-left: 2%;
+        }
+        .topHead ul.social li {
+            padding: 0px 6%;
+        }
+        .description p {
+            text-align: center;
+        }
+        .description .desc h3 {
+            font-size: 30px;
+        }
+        .description .desc p {
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .latestWorks {
+            padding: 15% 0;
+        }
+        .latestWorks p {
+            font-size: 17px;
+            text-align: center;
+        }
+        .wantwork p {
+            text-align: center;
+            font-weight: 600;
+        }
+        .information p {
+            text-align: center;
+            font-size: 18px;
+        }
+        .information h2 {
+            font-size: 40px;
+        }
+        .information .latestWork .row {
+            margin-left: 0px;
+        }
+        .information .latestWork .col-xs-6 {
+            width: 50%;
+        }
+        .information .latestWork img {
+            width: 100%;
+        }
+        .information .latestWork .col-xs-6 {
+            text-align: center;
+        }
+        .information .touch p {
+            text-align: center;
+            font-size: 18px;
+        }
+        .information .touch span {
+            font-size: 18px;
+        }
+        .information .touch span i {
+            padding-right: 5%;
+        }
+        .information .updates input.submit {
+            padding: 0;
+            height: 40px;
+            line-height: 40px;
+        }
+        .footer ul {
+            padding: 5% 0% 5% 20%;
+        }
+        .footer ul.copyright li {
+            padding: 0 0 0 30%;
+        }
+    }
+    /* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+    
+    @media(min-width: 640px) and (max-width: 767px) {
+        .topHead .col-xs-12 {
+            padding: 0;
+        }
+        .topHead ul.info li {
+            padding-right: 4%;
+        }
+        .topHead ul.social li {
+            padding: 0px 4%;
+            float: right;
+        }
+        .description h2 {
+            font-size: 30px;
+        }
+        .description p {
+            font-size: 16px;
+            padding-bottom: 8%;
+        }
+        .description .desc .col-xs-12 {
+            padding: 5% 0;
+        }
+        .description .desc h3 {
+            font-size: 25px;
+            text-align: left;
+        }
+        .description .desc p {
+            padding: 0;
+            font-size: 14px;
+            text-align: justify;
+        }
+        .description .desc i {
+            font-size: 70px;
+            padding: 3% 0 0 0;
+        }
+        .description .desc .col-xs-12 {
+            text-align: center;
+        }
+        .information h2 {
+            font-size: 30px;
+        }
+        .information p {
+            text-align: justify;
+            font-size: 13px;
+            padding: 0 3% 3% 0;
+            font-weight: 500;
+        }
+        .information .touch p {
+            text-align: justify;
+            font-size: 13px;
+            padding: 0 3% 3% 0;
+            font-weight: 500;
+        }
+        .information .touch span {
+            font-size: 11px;
+            padding: 3% 0 0 0;
+        }
+        .footer {
+            padding: 3% 0;
+        }
+        .footer ul {
+            padding: 0
+        }
+        .footer ul.copyright {
+            padding: 0;
+        }
+        .footer ul.copyright li {
+            padding: 0;
+        }
+        .footer ul.links li {
+            padding: 0 4% 0 0;
+        }
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    @media(min-width: 667px) and (max-width: 767px) {}
+    /* ---------------------------------------------------------------------- */
+    
+    @media(min-width: 731px) and (max-width: 767px) {
+        .description p {
+            padding-left: 8%;
+            text-align: justify;
+        }
+        .wantwork {
+            padding: 12% 1%;
+        }
+    }
+    /* ---------------------------------------------------------------------- */
+    
+    @media(min-width: 736px) and (max-width: 767px) {}
+    /* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+    
+    @media(min-width: 768px) and (max-width: 991px) {
+        .container {
+            width: 90%
+        }
+        .topHead ul.info {
+            padding: 0;
+            width: 100%;
+        }
+        .topHead ul.info li {
+            padding: 0 10% 0 0;
+        }
+        .topHead ul.info li:last-child {
+            padding: 0;
+        }
+        .topHead ul.info li i {
+            padding: 0 4% 0 0;
+        }
+        .topHead ul.social {
+            padding: 0;
+            float: right;
+            width: 100%;
+        }
+        .topHead ul.social li {
+            padding: 0 0 0 10%;
+        }
+        .description {
+            padding: 2% 0;
+        }
+        .description p {
+            padding: 4% 7% 10% 7%;
+            text-align: justify;
+        }
+        .description .desc i {
+            font-size: 38px;
+            padding-top: 25%;
+        }
+        .description .desc h3 {
+            font-size: 35px;
+        }
+        .description .desc .col-sm-9 {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+        .description .desc p {
+            font-size: 16px;
+            text-align: left;
+        }
+        .information {
+            height: auto;
+            padding: 5% 0% 5% 0%;
+            text-align: left;
+        }
+        .information h2 {
+            padding: 25% 0% 10% 0%;
+            font-size: 21px;
+            font-weight: bold;
+        }
+        .information p {
+            padding: 0 0% 6% 0%;
+            font-size: 14px;
+        }
+        .information .whoWeAre a {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .information .latestWork .work {
+            padding: 1%;
+        }
+        .information .touch p {}
+        .information .touch span {
+            text-align: left;
+            padding: 2% 0% 0% 1%;
+            font-size: 11px;
+        }
+        .information .touch span i {
+            padding-right: 4%;
+        }
+        .information .updates input {
+            width: 90%;
+            padding: 0;
+            margin: 1% 4%;
+            height: 40px;
+            line-height: 40px;
+            font-size: 12px;
+        }
+        .information .updates input.submit {
+            width: 90%;
+            padding: 0;
+            position: static;
+            height: 40px;
+            line-height: 40px;
+        }
+        .footer {
+            padding: 0;
+        }
+        .footer ul {
+            padding: 0;
+            width: 100%;
+        }
+        .footer ul.copyright {
+            padding: 0;
+            width: 100%;
+        }
+        .footer ul.copyright li {
+            padding: 0;
+        }
+        .footer ul.links {
+            width: 100%;
+        }
+        .footer ul.links li {
+            padding: 0 3% 0 0;
+        }
+    }
+    /* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+    
+    @media(min-width: 1024px) and (max-width: 1366px) {
+        .container {
+            width: 95%;
+        }
+
+        .description {
+            text-align: center;
+            height: auto;
+            padding: 90px 0;
+        }
+
+        .information .updates input{
+            width: 240px;
+        }
+
+        .information .updates input.submit{
+            width: 70px;
+            font-size: 10px;
+            left: 163px;
+        }
+    }
+    /* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+    
+    @media(min-width: 1366px) and (max-width: 1367px) {}
